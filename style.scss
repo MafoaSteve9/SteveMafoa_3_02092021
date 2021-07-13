@@ -14,14 +14,15 @@
         justify-content: center;
         display: flex;
         margin-top: 3px;
-        background-color: antiquewhite;
+        background-color: rgb(188, 189, 197);
         height: 40px;
         align-items: center;
     }    
     .search-city i{
         margin-right: 10px;
+        color: black;
     }
-    .container-header h1,p{
+    .container-header h1{
         display: flex;
         justify-content: center;
         align-items: center;
