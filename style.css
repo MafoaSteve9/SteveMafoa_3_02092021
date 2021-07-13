@@ -21,11 +21,12 @@
     display: -ms-flexbox;
     display: flex;
     margin-top: 3px;
-    background-color: #bcbdc5;
+    background-color: #dadbe7;
     height: 40px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 10px;
   }
   .search-city i {
     margin-right: 10px;
