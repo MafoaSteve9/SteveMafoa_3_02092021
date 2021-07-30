@@ -1,49 +1,179 @@
-@media (min-width: 375px) and (max-width: 812px) {
-  * {
-    padding: 0;
-    margin: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+@media (min-width: 375px) and (max-width: 812px){
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
   }
-  .logo img {
-    width: 200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+  body{
+    font-family: 'Roboto';
+  }
+  .logo img{
+      width: 200px;
+      display: flex;
+      margin: auto;
+      padding-top: 10px;
+  }
+  .margin-p{
+    margin-left: 50px;
+    font-weight: 300;
+  }
+  .margin-left-p{
+    margin-left: 105px;
+    font-weight: 300;
+  }
+  .title-nav{
+    margin-bottom: 10px;
+  }
+  .search-city{
+      justify-content: center;
+      display: flex;
+      margin-top: 3px;
+      background-color: rgb(218, 219, 231);
+      height: 40px;
+      align-items: center;
+      margin-top: 10px;
+      border-top: solid rgb(190, 189, 189);
+  }    
+  .search-city i{
+      margin-right: 10px;
+      color: black;
+  }
+  .container-header h1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+  }
+  nav{
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  form{
     display: flex;
-    margin: auto;
-    padding-top: 10px;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 2px;
   }
-  .search-city {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
+  form > button{
+    border-radius: 1rem;
+    width: 210px;
+    height: 45px;
+    background-color: #C968DB;
+    border: none;
+    font-weight: bold;
+    color: white;
+  }
+  
+  form a{
+    text-decoration: none;
+    color: white;
+  }
+  .number{
+    width: 26px;
+    border-radius: 15px;
     display: flex;
-    margin-top: 3px;
-    background-color: #dadbe7;
-    height: 40px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 10px;
-  }
-  .search-city i {
-    margin-right: 10px;
-    color: black;
-  }
-  .container-header h1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-  }
+    background-color: #9356DC;
+    justify-content: center;
+    height: 26px;
+    padding: 3px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+
 }
-/*# sourceMappingURL=style.css.map */
+ .choice-restaurants{
+   display: flex;
+   margin-top: 20px;
+ }
+ .function-1{
+   height: 60px;
+   background-color: darkgray;
+   width: 300px;
+   border-radius: 1rem;
+  background-color: #f3f2f2;
+  font-weight: bold;
+ }
+ .function-1 i{
+   color: #9356DC;
+ }
+ .function-1 p{
+   display: flex;
+   justify-content: center;
+ }
+ .function-1 i{
+  position: relative;
+  left: 30px;
+  top: 17px;
+ 
+}
+.img-size{
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 15px 15px 0 0;
+}
+.restaurants-text-flotant {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+.functioning{
+  margin-top: 30px;
+}
+h2{
+  margin-left: 10px;
+}
+
+.texte_centrer {
+  position: absolute;
+  top: 15%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  background-color: #99E2D0;
+  width: 100px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}
+.container-restaurants{
+  margin-top: 50px;
+  background-color: #f2f2f2;
+
+}
+.contenant-h3-p {
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  background-color: white;
+  height: 75px;
+  justify-content: center;
+  padding: 10px;
+}
+.footer-container{
+  background-color:#303131;
+  padding: 10px;
+}
+footer img{
+  width: 100px;
+    padding: 5px;
+    margin: 10px;
+    height: 30px;
+  
+}
+li{
+  padding: 5px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer i{
+  margin-right: 10px;
+}
+ul{
+  margin-top: 10px;
+}
+}
